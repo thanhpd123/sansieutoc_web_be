@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 3000;
 // ===== Middleware =====
 // CORS: Cho phép frontend truy cập (thay đổi origin nếu cần thiết)
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001', 'https://sansieutoc-web-fe.vercel.app', 'https://www.sansieutoc.com', 'https://sansieutoc.com'],
+  origin: ['http://localhost:3000', 'http://localhost:3001', 'https://sansieutoc-web-fe.vercel.app', 'https://www.sansieutoc.com', 'https://sansieutoc.com', 'http://zkoo0400gsgowowok84o8cck.185.210.144.237.sslip.io'],
   credentials: true,
 }));
 
